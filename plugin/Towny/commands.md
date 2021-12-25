@@ -36,7 +36,7 @@
   * ```circle/rect``` - 设置选区形状.
     * ```{# (以当前位置半径)}``` - 设置无法出售的土地的半径.
 * ```evict``` - Used to remove a plot from a plot owner, usually by the mayor or assistant.
-* ```trust
+* ```trust```
   * ```add {name}``` - Adds a player as Trusted on the plot.
   * ```remove {name}``` - Removes a player from being Trusted on the plot.
 * ```perm``` - 展示玩家所在区块的权限.
@@ -44,7 +44,7 @@
   * ```add {name}``` - Adds a player to the plot perm override.
   * ```remove {name}``` - Removes a player from the plot perm override.
 * ```perm hud``` - 开关显示更多土地权限信息的hud计分版.
-* ```set
+* ```set```
   * ```reset``` - 把其他类型的土地重置为普通的土地.
   * ```shop``` - 设置土地为商店.
   * ```embassy``` - 设置地皮为大使馆.
@@ -62,13 +62,13 @@
     * ```{build/destroy/switch/itemuse} {on/off}``` -开关 建筑/破坏/开关/物品使用 权限
     * ```{resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}``` -开关 居民/盟友/外来者 的 建筑/破坏/开关/物品使用 权限
     * ```reset``` - 重置地皮权限为 /town 或 /resident 上的默认权限 (取决于是地主还是他人使用该指令)
-* ```toggle
+* ```toggle```
   * ```fire``` - 开关你所站土地的火势蔓延.
   * ```pvp``` - 开关你所站土地的PVP.
   * ```explosion``` - 开关你所站土地的爆炸.
   * ```mob``` - 开关你所站土地的怪物生成.
 * ```clear``` - 回溯土地归于原生, 只会回溯配置内指定类型的方块.
-* ```group
+* ```group```
   * ```add|new|create {groupname}``` - Creates a plot group where a player is standing, also adds plots to an existing group.
   * ```remove``` - Removes the plot stood in from its plot group.
   * ```delete``` - Deletes a plot group entirely.
@@ -78,14 +78,14 @@
   * ```toggle ...``` - Used to toggle plot settings. See above section for /plot set toggle for remainder of commands.
   * ```forsale|fs {price}``` - Set the group for sale at the set price.
   * ```notforsale|nfs``` - Set the group not for sale.
-  * ```trust
+  * ```trust```
     * ```add {name}``` - Adds a player as Trusted on the plot group.
     * ```remove {name}``` - Removes a player from being Trusted on the plot group.
-  * ```perm
+  * ```perm```
     * ```gui``` - Opens the GUI to edit the plot perm override.
     * ```add {name}``` - Adds a player to the plot perm override.
     * ```remove {name}``` - Removes a player from the plot perm override.
-* ```jailcell
+* ```jailcell```
   * ```add``` - Adds a jail cell to a jail plot, where the player is stood.
   * ```remove``` - Removes a jail cell from a jail plot, where the player is stood.
 ### ```/resident``` 个人指令
@@ -93,7 +93,7 @@
 *``` - Shows a player their resident screen.
 * ```?``` - Shows /res commands available.
 * ```{resident}``` - Shows a player another player's resident screen.
-* ```friend
+* ```friend```
   * ```add {resident} .. {resident}``` - Resident adds online player to their friends list.
   * ```add+ {resident} .. {resident}``` - Resident adds offline player to their friends list.
   * ```remove {resident} .. {resident}``` - Resident removes online player from their friends list.
@@ -103,7 +103,7 @@
 * ```list``` - Lists residents in towny's data folder who are online.
 * ```jail paybail``` - Allows a player to pay to get out of jail. Funds go to the town which owns the Jail.
 * ```spawn``` - If deny_bed_use: true and player has a current bed spawn, command will teleport player to their bed.
-* ```toggle
+* ```toggle```
   * ```map``` - Turns on map which refreshes when moving across plot borders.
   * ```townclaim``` - Turns on mode where /town claim is automatically used when moving across plot borders.
   * ```plotborder``` - Turns on smokey plot-border view. Border shows when players cross to different townblocks.
@@ -111,12 +111,12 @@
   * ```spy``` - Admins can turn on chat-channel spying.
   * ```ignoreplots``` - Turns on/off plot notifications in town.
   * ```reset``` - This turns off all modes that are active.
-* ```set
-  * ```perm
+* ```set```
+  * ```perm```
     * ```{on/off}``` - Edits the perm line on the resident screen. See here for details.
-    * ```{friend/ally/outsider} {on/off}
-    * ```{build/destroy/switch/itemuse} {on/off}
-    * ```{friend/ally/outsider} {build/destroy/switch/itemuse} {on/off}
+    * ```{friend/ally/outsider} {on/off}```
+    * ```{build/destroy/switch/itemuse} {on/off}```
+    * ```{friend/ally/outsider} {build/destroy/switch/itemuse} {on/off}```
     * ```reset``` - This takes the perm line seen in the /resident screen and applies it to all plots personally owned by the player typing it.
 * ```tax {resname}``` - Shows taxes a player pays.
 ### ```/town``` 城镇指令
@@ -297,22 +297,22 @@
   * ```neutral``` - 是否设置你的国家在战争期间每日付费来保持中立.
   * ```open``` - Sets the nation to be open, so that any town can join without an invite.
 * ```join {nation}```
-  * ```Used by a town mayor to join an open nation.
+  * Used by a town mayor to join an open nation.
 * ```merge {nationname}```
-  * ```Requests the given nation to merge into your nation.
-  * ```Can only be used by the nation king, and requires the king of the other nation to be online to accept the merger.
-  * ```The soon-to-be-ex-king will receive a confirmation message asking if they will accept the dissolution of their nation.
-  * ```If accepted the towns of the nation transfer to the remaining nation. The nation's bank money is also transferred.
+  * Requests the given nation to merge into your nation.
+  * Can only be used by the nation king, and requires the king of the other nation to be online to accept the merger.
+  * The soon-to-be-ex-king will receive a confirmation message asking if they will accept the dissolution of their nation.
+  * If accepted the towns of the nation transfer to the remaining nation. The nation's bank money is also transferred.
 * ```ranklist {nationname}``` - Displays residents and their ranks, optional nationname to view another nation's rank list.
 * ```townlist (nation)```
-  * ```(nation) is optional, to show townlist of a nation you aren't a part of.
-  * ```lists all towns in a nation.
+  * (nation) is optional, to show townlist of a nation you aren't a part of.
+  * lists all towns in a nation.
 * ```allylist (nation)```
-  * ```(nation) is optional, to show allylist of a nation you aren't a part of.
-  * ```lists all allies of a nation.
+  * (nation) is optional, to show allylist of a nation you aren't a part of.
+  * lists all allies of a nation.
 * ```enemylist (nation)```
-  * ```(nation) is optional, to show enemylist of a nation you aren't a part of.
-  * ```lists all enemies of a nation.
+  * (nation) is optional, to show enemylist of a nation you aren't a part of.
+  * lists all enemies of a nation.
 ### ```/townyadmin``` 管理员指令
 缩写: ```/ta```
 * ```（无子命令）``` - 显示内存, 线程, 战争状态, 生命恢复设置, 时间, 税收状态.
