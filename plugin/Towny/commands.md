@@ -3,7 +3,7 @@
 {% hint style="info" %}
 **此页面存在尚未翻译的语段**
 
-如果你愿意协助翻译，请[点击此处（Github）](https://github.com/MineBlockMC/MineBlock-Book)
+如果你愿意协助翻译，请[点击此处](https://github.com/MineBlockMC/MineBlock-Book)或者右侧的“**在 Github 上编辑**”
 {% endhint %}
 
 ### `/towny` 城镇指令
