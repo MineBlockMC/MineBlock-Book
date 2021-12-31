@@ -10,13 +10,13 @@
 
 * `（无子命令）` - 展示基本的城镇指令.
 * `?` - 展示更多城镇指令.
-* `farmblocks` - Shows the blocks usable in farm plots.
-* `itemuse` - Shows the items in the item\_use\_ids list.
+* `farmblocks` - 显示在农场领地内可使用的方块.
+* `itemuse` - 显示 item\_use\_ids 列表里的物品.
 * `map` - 展示城镇地图.
-  * `hud` - Activates the map in the player's scoreboard.
-* `plotclearblocks` - Shows the blocks deleted using `/plot clear`
+  * `hud` - 启用玩家计分板的地图.
+* `plotclearblocks` - 显示使用 `/plot clear` 删除的方块
 * `prices` - 展示城镇税收和维护费用.
-* `switches` - Shows the blocks in the switch\_ids list.
+* `switches` - 展示 switch\_ids 列表内的方块.
 * `time` –展示到下一天的时间 (征收税收/维持费.)
 * `top` 排行
   * `residents {all/town/nation}` - 列出所有/城镇/国家的居民列表.
@@ -25,9 +25,9 @@
 * `tree` - 显示大量内容.只能在后台使用
 * `universe` - 显示所有城镇的数据, 居民/城镇/国家/世界 已声明的城镇区块计数.
 * `v` - 显示插件版本.
-* `wildsblocks` - Shows the blocks that are usable in wilds plots, and which are allowed to be farmed in the wilderness.
+* `wildsblocks` - 显示在荒野领地能使用的方块，和在荒野能进行耕种的方块
 
-### `/plot` 地皮指令
+### `/plot` 领地指令
 
 * `（无子命令）` - 展示 /plot 指令.
 * `claim` - 居民用来购买出售的土地的指令.
@@ -44,23 +44,23 @@
 * `{notforsale/nfs}` - 设置土地无法出售.
   * `circle/rect` - 设置选区形状.
     * `{# (以当前位置半径)}` - 设置无法出售的土地的半径.
-* `evict` - Used to remove a plot from a plot owner, usually by the mayor or assistant.
+* `evict` - 移除一个领地拥有者的领地，通常由镇长或是助理执行.
 * `trust`
-  * `add {name}` - Adds a player as Trusted on the plot.
-  * `remove {name}` - Removes a player from being Trusted on the plot.
+  * `add {name}` - 把玩家添加为领地的信任者.
+  * `remove {name}` - 移除玩家的领地信任者身份.
 * `perm` - 展示玩家所在区块的权限.
-  * `gui` - opens the GUI to configure the plot perm override.
-  * `add {name}` - Adds a player to the plot perm override.
-  * `remove {name}` - Removes a player from the plot perm override.
+  * `gui` - 开启一个菜单来配置领地的权限覆盖.
+  * `add {name}` - 为一个玩家添加领地的权限覆盖.
+  * `remove {name}` - 移除一个玩家的领地权限覆盖.
 * `perm hud` - 开关显示更多土地权限信息的hud计分版.
 * `set`
   * `reset` - 把其他类型的土地重置为普通的土地.
   * `shop` - 设置土地为商店.
-  * `embassy` - 设置地皮为大使馆.
-  * `arena` - 设置地皮为竞技场.
-  * `wilds` - 设置地皮为荒野.
-  * `inn` - 设置地皮为旅店.
-  * `jail` - 设置地皮为监狱.
+  * `embassy` - 设置领地为大使馆.
+  * `arena` - 设置领地为竞技场.
+  * `wilds` - 设置领地为荒野.
+  * `inn` - 设置领地为旅店.
+  * `jail` - 设置领地为监狱.
   * `farm` - Set a plot to a farm plot.
   * `bank` - Set a plot to a bank plot.
   * `outpost` - Set a plot to an outpost plot, costs the same as /t claim outpost.
@@ -70,7 +70,7 @@
     * `{resident/ally/outsider} {on/off}` -开关 居民/盟友/外来者 的权限 [See here for details.](https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#towny-plot-perms)
     * `{build/destroy/switch/itemuse} {on/off}` -开关 建筑/破坏/开关/物品使用 权限
     * `{resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}` -开关 居民/盟友/外来者 的 建筑/破坏/开关/物品使用 权限
-    * `reset` - 重置地皮权限为 /town 或 /resident 上的默认权限 (取决于是地主还是他人使用该指令)
+    * `reset` - 重置领地权限为 /town 或 /resident 上的默认权限 (取决于是地主还是他人使用该指令)
 * `toggle`
   * `fire` - 开关你所站土地的火势蔓延.
   * `pvp` - 开关你所站土地的PVP.
@@ -213,17 +213,17 @@
     * `{resident/ally/outsider} {on/off}` - 开关 居民/盟友/外来者 权限
     * `{build/destroy/switch/itemuse} {on/off}` - 开启或关闭 建筑/破坏/开关/物品使用 权限
     * `{resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}` - 开关 居民/盟友/外来者的 建筑/破坏/开关/物品使用 权限
-    * `reset` - 这个指令将会重置城镇内所有的地皮权限为默认地皮设置.
+    * `reset` - 这个指令将会重置城镇内所有的领地权限为默认领地设置.
   * `tag` {最多4个标签}\`\`\` - 设置城镇标签(可改变聊天的格式).
     * `clear` - 清除城镇标签.
   * `taxes {$}` - 设置固定的每日税收. 也可以设置为税收率.
   * `taxpercentcap {$}` - The maximum amount that can be taken when taxpercent is enabled.
   * `plottax {$}` - 设置土地税, 按照居民拥有的土地数来收税.
   * `plotprice {$}` - 设置城镇的默认土地价格.
-  * `shopprice {$}` - 设置默认的商店地皮价格.
-  * `shoptax {$}` - 设置商店地皮税, 按照拥有的商店地皮来收税.
-  * `embassyprice {$}` - 设置默认大使馆地皮价格.
-  * `embassytax {$}` - 设置大使馆地皮税, 按照拥有的大使馆地皮来收税.
+  * `shopprice {$}` - 设置默认的商店领地价格.
+  * `shoptax {$}` - 设置商店领地税, 按照拥有的商店领地来收税.
+  * `embassyprice {$}` - 设置默认大使馆领地价格.
+  * `embassytax {$}` - 设置大使馆领地税, 按照拥有的大使馆领地来收税.
   * `title {name} {titlegoeshere}` - Mayor command to add a Title to a member of the town.
   * `surname {name} {surnamegoeshere}` - Mayor command to add a Suffix to a member of the town.
   * `primaryjail` - Sets your town's primary jail.
@@ -468,21 +468,21 @@
 
 ### `/invite`
 
-* `（无子命令）` - Shows subcommands.
-* `?|help` - Shows subcommands.
-* `list` - Shows a list of invites you have received from towns.
-* `accept {town}` - Accepts an invite to join a town.
-* `deny {town}` - Denies an invite to join a town.
+* `（无子命令）` - 显示子命令.
+* `?|help` - 显示子命令.
+* `list` - 显示你收到的邀请列表
+* `accept {town}` - 接受加入一个城镇的邀请.
+* `deny {town}` - 拒绝加入一个城镇的邀请.
 
 ### 城镇聊天指令
 
-* `/townychat reload` - Reloads chatconfig.yml and channels.yml
+* `/townychat reload` - 重载 chatconfig.yml 和 channels.yml
 * `/townchat`, `/tc` - 城镇聊天频道, 之后不需要再次输入来进入频道.
 * `/nationchat`, `/nc` - 国家聊天频道, 之后不需要再次输入来进入频道.
 * `/global`, `/g` - 全局聊天频道,之后不需要再次输入来进入频道.
-* `/res set mode reset` - Reset chat mode to default chat.
+* `/res set mode reset` - 重置聊天模式为默认.
 * `/a` - 管理员频道.
-* `/m` - 主持人频道.
+* `/m` - 助理者频道.
 * `/channel leave|join {频道}` - 离开或加入一个聊天频道.
 * `/ch list` –列出多少玩家在你所在频道有.
 * `/leave {频道}` - 离开一个聊天频道.
