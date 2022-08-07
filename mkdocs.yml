@@ -3,16 +3,17 @@
 site_name: MineBlock 玩家手册
 nav:
   - 主页: index.md
-  - 插件:
-    - plugin/index.md
-    - DeEnchantment: 
-      - plugin/DeEnchantment/index.md
-      - 负魔列表: plugin/DeEnchantment/enchantment-list.md
-    - Towny: 
-      - plugin/Towny/index.md
-      - 命令: plugin/Towny/command.md
+  - 玩法和机制:
+    - mechanism/index.md
+    - 负魔书: 
+      - mechanism/DeEnchantment/index.md
+      - 负魔列表: mechanism/DeEnchantment/enchantment-list.md
+    - 城镇: 
+      - mechanism/Towny/index.md
+      - 命令: mechanism/Towny/command.md
   - 服务器:
     - 特权表: server/rank.md
+    - 已知 Bug: server/bugs.md
     - 隐私政策: server/privacy.md
 theme:
   name: material
