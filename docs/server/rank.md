@@ -31,5 +31,6 @@ hide:
 | 允许在木牌中使用所有样式代码 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许创建末影箱商店（仅纯净生存） | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许在聊天中使用表情`/emoji` | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
+| 允许在聊天中使用<ins><del><b>魔法文字</b></del></ins> `&k` | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许在服务器维护时进入服务器 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许跳过下界传送门延迟 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
