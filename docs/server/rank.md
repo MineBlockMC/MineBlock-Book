@@ -34,3 +34,4 @@ hide:
 | 允许在聊天中使用<ins><del><b>魔法文字</b></del></ins> `&k` | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许在服务器维护时进入服务器 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
 | 允许跳过下界传送门延迟 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
+| 允许进入需要权限的或特殊服务器 | :material-close: | :material-close: | :material-close: | :material-close: | :material-check: |
