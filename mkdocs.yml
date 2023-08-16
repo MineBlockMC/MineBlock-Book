@@ -3,6 +3,9 @@
 site_name: MineBlock 玩家手册
 nav:
   - 主页: index.md
+  - 规则:
+    - MineBlock 玩家守则: rules/server-rules.md
+    - 在 MineBlock 上使用模组的规则: rules/allowed-modifications.md
   - 玩法和机制:
     - mechanism/index.md
     - 负魔书: 
@@ -11,9 +14,6 @@ nav:
     - 城镇: 
       - mechanism/Towny/index.md
       - 命令: mechanism/Towny/command.md
-  - 规则:
-    - MineBlock 玩家守则: rules/server-rules.md
-    - 在 MineBlock 上使用模组的规则: rules/allowed-modifications.md
   - 服务器内容:
     - 特权表: server/rank.md
     - 已知 Bug: server/bugs.md
