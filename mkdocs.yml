@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: MineBlock 玩家手册
 nav:
-  - index.md
+  - 主页: index.md
   - 规则:
     - MineBlock 玩家守则: rules/server-rules.md
     - 在 MineBlock 上使用模组的规则: rules/allowed-modifications.md
