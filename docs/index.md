@@ -14,7 +14,7 @@ MineBlock 是充满欢乐和友爱的地方，我们希望所有玩家都能在 
 
 # 更多链接
 
-* 官方网站：https://www.mineblock.cc
-* 在线商店：https://store.mineblock.cc
-* 卫星地图：https://map.mineblock.cc
+* 官方网站：[https://www.mineblock.cc](https://www.mineblock.cc)
+* 在线商店：[https://store.mineblock.cc](https://store.mineblock.cc)
+* 卫星地图：[https://map.mineblock.cc](https://map.mineblock.cc)
 * QQ 交流群：1062462092
