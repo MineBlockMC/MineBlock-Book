@@ -1,0 +1,1503 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../../server/rank/">
+      
+      
+      <link rel="icon" href="https://mineblock.gitee.io/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>命令 - MineBlock 玩家手册</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../.." title="MineBlock 玩家手册" class="md-header__button md-logo" aria-label="MineBlock 玩家手册" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MineBlock 玩家手册
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              命令
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/MineBlockMC/MineBlock-Book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    MineBlock-Book
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="MineBlock 玩家手册" class="md-nav__button md-logo" aria-label="MineBlock 玩家手册" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    MineBlock 玩家手册
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/MineBlockMC/MineBlock-Book" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    MineBlock-Book
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    主页
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    规则
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            规则
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/server-rules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MineBlock 玩家守则
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rules/allowed-modifications/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    在 MineBlock 上使用模组的规则
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    玩法和机制
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            玩法和机制
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../DeEnchantment/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    负魔书
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            负魔书
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DeEnchantment/enchantment-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    负魔列表
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    城镇
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            城镇
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    命令
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    命令
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#towny" class="md-nav__link">
+    <span class="md-ellipsis">
+      /towny 城镇指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      /plot 领地指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resident" class="md-nav__link">
+    <span class="md-ellipsis">
+      /resident 个人指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town" class="md-nav__link">
+    <span class="md-ellipsis">
+      /town 城镇指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nation" class="md-nav__link">
+    <span class="md-ellipsis">
+      /nation 国家指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#townyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      /townyadmin 管理员指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#townyworld" class="md-nav__link">
+    <span class="md-ellipsis">
+      /townyworld 管理员指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite" class="md-nav__link">
+    <span class="md-ellipsis">
+      /invite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      城镇聊天指令
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    服务器内容
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            服务器内容
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/rank/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    特权表
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/bugs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    已知 Bug
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../server/privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    隐私政策
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#towny" class="md-nav__link">
+    <span class="md-ellipsis">
+      /towny 城镇指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      /plot 领地指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resident" class="md-nav__link">
+    <span class="md-ellipsis">
+      /resident 个人指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town" class="md-nav__link">
+    <span class="md-ellipsis">
+      /town 城镇指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nation" class="md-nav__link">
+    <span class="md-ellipsis">
+      /nation 国家指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#townyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      /townyadmin 管理员指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#townyworld" class="md-nav__link">
+    <span class="md-ellipsis">
+      /townyworld 管理员指令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite" class="md-nav__link">
+    <span class="md-ellipsis">
+      /invite
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      城镇聊天指令
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="_1">命令</h1>
+<h3 id="towny"><code>/towny</code> 城镇指令</h3>
+<ul>
+<li><code>（无子命令）</code> - 展示基本的城镇指令.</li>
+<li><code>?</code> - 展示更多城镇指令.</li>
+<li><code>farmblocks</code> - 显示在农场领地内可使用的方块.</li>
+<li><code>itemuse</code> - 显示 item_use_ids 列表里的物品.</li>
+<li><code>map</code> - 展示城镇地图.</li>
+<li><code>hud</code> - 启用玩家计分板的地图.</li>
+<li><code>plotclearblocks</code> - 显示使用 <code>/plot clear</code> 删除的方块</li>
+<li><code>prices</code> - 展示城镇税收和维护费用.</li>
+<li><code>switches</code> - 展示 switch_ids 列表内的方块.</li>
+<li><code>time</code> –展示到下一天的时间 (征收税收/维持费.)</li>
+<li><code>top</code> 排行</li>
+<li><code>residents {all/town/nation}</code> - 列出所有/城镇/国家的居民列表.</li>
+<li><code>land {all/resident/town}</code> - 展出拥有土地最多的人.</li>
+<li><code>spy</code> - 管理员指令,窥视所有聊天频道的信息</li>
+<li><code>tree</code> - 显示大量内容.只能在后台使用</li>
+<li><code>universe</code> - 显示所有城镇的数据, 居民/城镇/国家/世界 已声明的城镇区块计数.</li>
+<li><code>v</code> - 显示插件版本.</li>
+<li><code>wildsblocks</code> - 显示在荒野领地能使用的方块，和在荒野能进行耕种的方块</li>
+</ul>
+<h3 id="plot"><code>/plot</code> 领地指令</h3>
+<ul>
+<li><code>（无子命令）</code> - 展示 /plot 指令.</li>
+<li><code>claim</code> - 居民用来购买出售的土地的指令.</li>
+<li><code>auto</code> - 居民用来自动购买附近出售中的土地的指令.</li>
+<li><code>unclaim</code> - 居民放弃自己的土地的指令.</li>
+<li><code>circle/rect</code> - 自动放弃区域内的自己的土地.(圆形/矩形 下同)</li>
+<li><code>{# (以当前位置半径)}</code> - 放弃土地的半径.</li>
+<li><code>{forsale/fs}</code> - 出售一块土地.</li>
+<li><code>circle/rect</code> - 设置选区形状.<ul>
+<li><code>{# (以当前位置半径)}</code> - 出售土地的半径.</li>
+</ul>
+</li>
+<li><code>$</code> - 土地价格.<ul>
+<li><code>circle/rect</code> - 设置选区形状.</li>
+<li><code>{# (以当前位置半径)}</code> - 出售土地的半径.</li>
+</ul>
+</li>
+<li><code>{notforsale/nfs}</code> - 设置土地无法出售.</li>
+<li><code>circle/rect</code> - 设置选区形状.<ul>
+<li><code>{# (以当前位置半径)}</code> - 设置无法出售的土地的半径.</li>
+</ul>
+</li>
+<li><code>evict</code> - 移除一个领地拥有者的领地，通常由镇长或是助理执行.</li>
+<li><code>trust</code></li>
+<li><code>add {name}</code> - 把玩家添加为领地的信任者.</li>
+<li><code>remove {name}</code> - 移除玩家的领地信任者身份.</li>
+<li><code>perm</code> - 展示玩家所在区块的权限.</li>
+<li><code>gui</code> - 开启一个菜单来配置领地的权限覆盖.</li>
+<li><code>add {name}</code> - 为一个玩家添加领地的权限覆盖.</li>
+<li><code>remove {name}</code> - 移除一个玩家的领地权限覆盖.</li>
+<li><code>perm hud</code> - 开关显示更多土地权限信息的hud计分版.</li>
+<li><code>set</code></li>
+<li><code>reset</code> - 把其他类型的土地重置为普通的土地.</li>
+<li><code>shop</code> - 设置土地为商店.</li>
+<li><code>embassy</code> - 设置领地为大使馆.</li>
+<li><code>arena</code> - 设置领地为竞技场.</li>
+<li><code>wilds</code> - 设置领地为荒野.</li>
+<li><code>inn</code> - 设置领地为旅店.</li>
+<li><code>jail</code> - 设置领地为监狱.</li>
+<li><code>farm</code> - 设置领地为农场.</li>
+<li><code>bank</code> - 设置领地为银行.</li>
+<li><code>outpost</code> - 设置领地为前哨, 与 /t claim outpost 花费相同.</li>
+<li><code>name</code> - 允许城镇或地主重命名地名, 覆盖默认的\~Unowned message.个人土地会显示地主名和地名.</li>
+<li><code>perm</code> - 编辑土地权限<ul>
+<li><code>{on/off}</code> - 启用/关闭权限限制.</li>
+<li><code>{resident/ally/outsider} {on/off}</code> -开关 居民/盟友/外来者 的权限 <a href="https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#towny-plot-perms">See here for details.</a></li>
+<li><code>{build/destroy/switch/itemuse} {on/off}</code> -开关 建筑/破坏/开关/物品使用 权限</li>
+<li><code>{resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}</code> -开关 居民/盟友/外来者 的 建筑/破坏/开关/物品使用 权限</li>
+<li><code>reset</code> - 重置领地权限为 /town 或 /resident 上的默认权限 (取决于是地主还是他人使用该指令)</li>
+</ul>
+</li>
+<li><code>toggle</code></li>
+<li><code>fire</code> - 开关你所站土地的火势蔓延.</li>
+<li><code>pvp</code> - 开关你所站土地的PVP.</li>
+<li><code>explosion</code> - 开关你所站土地的爆炸.</li>
+<li><code>mob</code> - 开关你所站土地的怪物生成.</li>
+<li><code>clear</code> - 回溯土地归于原生, 只会回溯配置内指定类型的方块.</li>
+<li><code>group</code></li>
+<li><code>add|new|create {groupname}</code> - 在玩家所站的地方创建一个领地组，同时把领地添加到现有组中。</li>
+<li><code>remove</code> - 从领地组中删除该领地.</li>
+<li><code>delete</code> - 完全删除一个领地组.</li>
+<li><code>rename {newname}</code> - 重命名一个领地组.</li>
+<li><code>set {plottype}</code> - 将一个领地组设置为特定的领地类型. 不能用于监狱类型的领地组.</li>
+<li><code>set perm ...</code> - 用来为你所站的领地组设置权限行.有关其余命令的详细信息，请参见上一节的/plot set perm.</li>
+<li><code>toggle ...</code> - 用来切换领地的设置. 有关其余命令的详细信息，请参见上一节的/plot set toggle.</li>
+<li><code>forsale|fs {price}</code> - 以给出的价格将领地组设置为在售.</li>
+<li><code>notforsale|nfs</code> - 取消领地组的在售状态.</li>
+<li><code>trust</code><ul>
+<li><code>add {name}</code> - 将一个玩家添加到领地组的信任名单中.</li>
+<li><code>remove {name}</code> - 将一个玩家移除出领地组的信任名单.</li>
+</ul>
+</li>
+<li><code>perm</code> - 展示玩家所在区块的权限.<ul>
+<li><code>gui</code> - 开启一个菜单来配置领地的权限覆盖.</li>
+<li><code>add {name}</code> - 为一个玩家添加领地的权限覆盖.</li>
+<li><code>remove {name}</code> - 移除一个玩家的领地权限覆盖.</li>
+</ul>
+</li>
+<li><code>jailcell</code></li>
+<li><code>add</code> - 在玩家所站的地方设立一间牢房，如果领地种类是监狱的话.</li>
+<li><code>remove</code> - 移除玩家所站立的地方的牢房，如果领地种类是监狱的话.</li>
+</ul>
+<h3 id="resident"><code>/resident</code> 个人指令</h3>
+<p>缩写: <code>/p</code>, <code>/res</code> *``` - 展示resident相关指令.</p>
+<ul>
+<li><code>?</code> - 展示 /res 可用的命令.</li>
+<li><code>{resident}</code> - 显示另一居民的信息.</li>
+<li><code>friend</code></li>
+<li><code>add {resident} .. {resident}</code> - 居民将在线玩家添加到好友列表中.</li>
+<li><code>add+ {resident} .. {resident}</code> - 居民将离线玩家添加到好友列表中.</li>
+<li><code>remove {resident} .. {resident}</code> - 居民将在线玩家移除出好友列表.</li>
+<li><code>remove+ {resident} .. {resident}</code> - 居民将离线玩家移除出好友列表.</li>
+<li><code>clearlist</code> - Removes all friends from a resident's friend list.</li>
+<li><code>list</code> - Returns a list of your friends.</li>
+<li><code>list</code> - Lists residents in towny's data folder who are online.</li>
+<li><code>jail paybail</code> - Allows a player to pay to get out of jail. Funds go to the town which owns the Jail.</li>
+<li><code>spawn</code> - If deny_bed_use: true and player has a current bed spawn, command will teleport player to their bed.</li>
+<li><code>toggle</code></li>
+<li><code>map</code> - Turns on map which refreshes when moving across plot borders.</li>
+<li><code>townclaim</code> - Turns on mode where /town claim is automatically used when moving across plot borders.</li>
+<li><code>plotborder</code> - Turns on smokey plot-border view. Border shows when players cross to different townblocks.</li>
+<li><code>constantplotborder</code> - Turns on smokey plot-border view. Border doesn't disappear.</li>
+<li><code>spy</code> - Admins can turn on chat-channel spying.</li>
+<li><code>ignoreplots</code> - Turns on/off plot notifications in town.</li>
+<li><code>reset</code> - This turns off all modes that are active.</li>
+<li><code>set</code></li>
+<li><code>perm</code><ul>
+<li><code>{on/off}</code> - Edits the perm line on the resident screen. See here for details.</li>
+<li><code>{friend/ally/outsider} {on/off}</code></li>
+<li><code>{build/destroy/switch/itemuse} {on/off}</code></li>
+<li><code>{friend/ally/outsider} {build/destroy/switch/itemuse} {on/off}</code></li>
+<li><code>reset</code> - This takes the perm line seen in the /resident screen and applies it to all plots personally owned by the player typing it.</li>
+</ul>
+</li>
+<li><code>tax {resname}</code> - Shows taxes a player pays.</li>
+</ul>
+<h3 id="town"><code>/town</code> 城镇指令</h3>
+<p>缩写: <code>/t</code></p>
+<ul>
+<li><code>（无子命令）</code> - 展示玩家所在的城镇信息.</li>
+<li><code>?</code> - 展示可用的/town指令.</li>
+<li><code>{城镇名}</code> - 显示某个城镇的信息.</li>
+<li><code>here</code> - 显示你所站在的那个城镇的信息.</li>
+<li><code>leave</code> - 离开城镇.</li>
+<li><code>list {page #}</code> - 列出城镇列表.</li>
+<li><code>by name {page #}</code> - order alpabetically.</li>
+<li><code>by resident {page #}</code> - order by town with most residents.</li>
+<li><code>by balance {page #}</code> - order by town with the highest nation bank balance.</li>
+<li><code>by townblocks {page #}</code> - order towns by how many townblocks they have claimed.</li>
+<li><code>by online {page #}</code> - order by how many players are online at that moment.</li>
+<li><code>by open {page #}</code> - lists open towns first, in order of most residents to least residents.</li>
+<li><code>by public {page #}</code> - lists public towns first, in order of most residents to least residents.</li>
+<li><code>by ruined {page #}</code> - lists ruined towns first, in order of most residents to least residents.</li>
+<li><code>by bankrupt {page #}</code> - lists bankrupt towns first, in order of most residents to least residents.</li>
+<li><code>by founded {page #}</code> - order by founded date, oldest first.</li>
+<li><code>online</code> - 显示你所在城镇的在线玩家.</li>
+<li><code>plots {城镇名}</code> - 展示城镇内的土地及其种类和税收.</li>
+<li><code>new</code></li>
+<li><code>{城镇名}</code> - 创建新城镇.</li>
+<li><code>{城镇名} {城主}</code> - 创建城镇(管理员指令).</li>
+<li><code>add {居民} .. {居民}</code> - 邀请玩家到你的城镇内(城主指令).</li>
+<li><code>kick {居民} .. {居民}</code> - 把一个玩家踢出你的城镇(城主指令).</li>
+<li><code>invite</code> - Show a list of players who've been sent invites to your town.</li>
+<li><code>sent</code> - Show a list of players who've been sent invites to your town.</li>
+<li><code>received</code> - Show a list of invites your town has received from nations.</li>
+<li><code>accept {nationname}</code> - Accept an invite to join a nation.</li>
+<li><code>deny {nationname}</code> - Deny an invite to join a nation.</li>
+<li><code>{playername}</code> - Send an invite to a player to join your town.</li>
+<li><code>spawn</code> - 传送到城镇出生点.</li>
+<li><code>spawn {城镇名}</code> - 传送你到其他城镇的出生点.</li>
+<li><code>claim</code> - 声明你所在的区块为城镇所有(管理员/助手指令).</li>
+<li><code>outpost</code> - 为你的城镇建立前哨.</li>
+<li><code>{# (以当前位置为半径)}</code> - 声明附近的区块为你的城镇所管辖.</li>
+<li><code>auto</code> - 尽可能多地自动声明你附件的区块为你的城镇所管辖.</li>
+<li><code>unclaim</code> - 放弃管辖当前区块.</li>
+<li><code>all</code> - 放弃管辖所有城镇区块(城主指令).</li>
+<li><code>{# (以当前位置为半径)}</code> - 放弃附近的区块为你的城镇所管辖.</li>
+<li><code>outpost</code> - 用于放弃前哨 on MySQL Towny servers pre-0.92.0.0</li>
+<li><code>withdraw {$}</code> - 从城镇银行内取钱.</li>
+<li><code>deposit {$}</code> - 捐钱给城镇.</li>
+<li><code>baltop {townname}</code> - Opens a book displaying the richest players in a town.</li>
+<li><code>bankhistory {#}</code> - Opens a book GUI with # number of transactions listed, showing the town bank history.</li>
+<li><code>buy</code></li>
+<li><code>bonus {amount}</code> - 购买可用城镇区块上限.</li>
+<li><code>allylist {townname}</code> - Displays a list of allies for the Town.</li>
+<li><code>enemylist {townname}</code> - Displays a list of enemies for the Town.</li>
+<li><code>delete {town name}</code> - 删除城镇及其数据(管理员/城主指令)(解散城镇使其分崩离析).</li>
+<li><code>merge {town name}</code> - {town name} is the town which will be merged into the town owned by the mayor using the command.</li>
+<li><code>outlawlist {城镇名}</code> - 列出城镇放逐者列表.（92版本才有）</li>
+<li><code>outlaw {add/remove} {name}</code> –从城镇放逐者列表中添加或移除玩家（92版本才有）</li>
+<li><code>outpost</code></li>
+<li><code>{# (#相当于相应的前哨编号)}</code> - 传送到一个前哨.</li>
+<li><code>{list}</code> - 列出你的城镇前哨.</li>
+<li><code>plotgrouplist {townname} {page #}</code> - Lists a town's plotgroups with forsale and price indicated.</li>
+<li><code>purge {days}</code> - Kicks residents from the town who have been inactive for the given number of days, exempts npcs and mayors.</li>
+<li><code>ranklist</code> - 展示居民头衔.</li>
+<li><code>rank {add|remove} {玩家名} {头衔名}</code> - 给予或移除一个居民的头衔.</li>
+<li><code>reclaim</code> - allows a resident to reclaim their ruined town.</li>
+<li><code>reslist {城镇名}</code> - 查看一个城镇内的所有居民.</li>
+<li><code>say {msg}</code> - 向城镇成员广播信息.</li>
+<li><code>set</code></li>
+<li><code>board {信息}</code> - 设置公告栏信息(居民在每次登录时会看到的信息).<ul>
+<li><code>{message}</code> - Sets message seen by residents upon logging in.</li>
+<li><code>none</code> - Sets an empty board which will not be seen on login or in the /town status screen.</li>
+</ul>
+</li>
+<li><code>mayor {居民}</code> - 将你的城主之位传给下一代(城主指令).</li>
+<li><code>homeblock</code> - 设置城镇中心区块(传送点).</li>
+<li><code>spawn</code> - 设置城镇传送点, 必须在城镇中心区块内.</li>
+<li><code>spawncost</code> - Set the cost of spawning to a public town. Doesn't affect town residents, nation members and nation-allies.</li>
+<li><code>mapcolor {color}</code> - Sets a town's mapcolor seen in the dynmap.</li>
+<li><code>name {名称}</code> - 改变你的城镇名.</li>
+<li><code>outpost</code> - 设置一个城镇区块为前哨.</li>
+<li><code>jail</code> - 重置监狱的传送点到你所在的位置.</li>
+<li><code>perm</code> - 城镇权限设置<ul>
+<li><code>{on/off}</code> - 开关</li>
+<li><code>{resident/ally/outsider} {on/off}</code> - 开关 居民/盟友/外来者 权限</li>
+<li><code>{build/destroy/switch/itemuse} {on/off}</code> - 开启或关闭 建筑/破坏/开关/物品使用 权限</li>
+<li><code>{resident/ally/outsider} {build/destroy/switch/itemuse} {on/off}</code> - 开关 居民/盟友/外来者的 建筑/破坏/开关/物品使用 权限</li>
+<li><code>reset</code> - 这个指令将会重置城镇内所有的领地权限为默认领地设置.</li>
+</ul>
+</li>
+<li><code>tag</code> {最多4个标签}``` - 设置城镇标签(可改变聊天的格式).<ul>
+<li><code>clear</code> - 清除城镇标签.</li>
+</ul>
+</li>
+<li><code>taxes {$}</code> - 设置固定的每日税收. 也可以设置为税收率.</li>
+<li><code>taxpercentcap {$}</code> - The maximum amount that can be taken when taxpercent is enabled.</li>
+<li><code>plottax {$}</code> - 设置土地税, 按照居民拥有的土地数来收税.</li>
+<li><code>plotprice {$}</code> - 设置城镇的默认土地价格.</li>
+<li><code>shopprice {$}</code> - 设置默认的商店领地价格.</li>
+<li><code>shoptax {$}</code> - 设置商店领地税, 按照拥有的商店领地来收税.</li>
+<li><code>embassyprice {$}</code> - 设置默认大使馆领地价格.</li>
+<li><code>embassytax {$}</code> - 设置大使馆领地税, 按照拥有的大使馆领地来收税.</li>
+<li><code>title {name} {titlegoeshere}</code> - Mayor command to add a Title to a member of the town.</li>
+<li><code>surname {name} {surnamegoeshere}</code> - Mayor command to add a Suffix to a member of the town.</li>
+<li><code>primaryjail</code> - Sets your town's primary jail.</li>
+<li><code>toggle</code></li>
+<li><code>explosion</code> - 开关城镇内的爆炸.</li>
+<li><code>fire</code> - 开关城镇内的火势蔓延.</li>
+<li><code>mobs</code> - 开关城镇内的敌对怪物生成.</li>
+<li><code>public</code> - 对外人是否开启城镇传送点.</li>
+<li><code>pvp</code> - 开关城镇内的PVP.</li>
+<li><code>taxpercent</code> - 开关按税率收税.</li>
+<li><code>nationzone</code> - Turn on/off the town's NationZone.</li>
+<li><code>open</code> - 开放/关闭公开城镇.</li>
+<li><code>join {城镇名}</code> - 加入公开的城镇.</li>
+<li><code>jail</code></li>
+<li><code>list</code> - Shows jail number, name, coord, cellcount and which jail is the primary jail.</li>
+<li><code>{name}</code> - Jails the given player for 1 hour, must be a resident of your own town.</li>
+<li><code>{name} {hours}</code> - Jails the given player for the given hours.</li>
+<li><code>{name} {hours} {jail}</code> - Jails the given player for the given hours, in the given jail plot (which is a number.)</li>
+<li><code>{name} {hours} {jail} {cell}</code> - Jails the given player for the given hours, in the given jail plot and jail cell (which are both numbers.)</li>
+<li><code>unjail {name}</code> - Unjails someone in your town's jail.</li>
+<li><code>trust</code></li>
+<li><code>add {name}</code> - Adds a player as Trusted to the entire town.</li>
+<li><code>remove {name}</code> - Removes a player from being Trusted by the entire town.</li>
+</ul>
+<h3 id="nation"><code>/nation</code> 国家指令</h3>
+<p>缩写: <code>/n</code>, <code>/nat</code></p>
+<ul>
+<li><code>（无子命令）</code> - 显示玩家所在国家的情况.</li>
+<li><code>?</code> - 显示 /nation 指令.</li>
+<li><code>list {页码}</code> - 列出所有国家.</li>
+<li><code>by name {page #}</code> - order alpabetically.</li>
+<li><code>by resident {page #}</code> - order by nation with most residents across all towns.</li>
+<li><code>by balance {page #}</code> - order by nation with the highest nation bank balance.</li>
+<li><code>by towns {page #}</code> - order by nation with the most towns.</li>
+<li><code>by townblocks {page #}</code> - order nations by how many townblocks their towns have collectively claimed.</li>
+<li><code>by online {page #}</code> - order by how many players are online at that moment.</li>
+<li><code>by open {page #}</code> - ordered by open first, number of residents second.</li>
+<li><code>by public {page #}</code> - order by public first, number of residents second.</li>
+<li><code>by founded {page #}</code> - order by founded date, oldest first.</li>
+<li><code>online</code> - 显示在线的国人.</li>
+<li><code>{国家名}</code> - 显示某个国家的信息.</li>
+<li><code>leave</code> - 从祖国的怀抱中挣脱(城主指令).</li>
+<li><code>withdraw {$}</code> - 从国库中取钱(国王指令).</li>
+<li><code>deposit {$}</code> - 捐钱给国家.</li>
+<li><code>baltop {nationname}</code> - Opens a book displaying the richest players in a nation.</li>
+<li><code>bankhistory {#}</code> - Opens a book GUI with # number of transactions listed, showing the nation bank history.</li>
+<li><code>deposit {$} {townname}</code> - King command to add money to the bank of a town who is in the nation.</li>
+<li><code>new</code></li>
+<li><code>{国家名}</code> - 建国.</li>
+<li><code>{国家名} {国都}</code> - 创建新的国家并设置某个城镇为国都(管理员指令).</li>
+<li><code>rank</code> - 设置国家内的助手/自定义头衔.</li>
+<li><code>add {城镇名}</code> .. {城镇名}``` - 邀请一个城镇加入你的国家.</li>
+<li><code>kick {城镇名}</code> .. {城镇名}``` - 把一个城镇踢出你的国家.</li>
+<li><code>delete {国家名}</code> - 灭国 (国王指令).</li>
+<li><code>invite</code> - Show a list of invites sent.</li>
+<li><code>help</code> - Show a list of invites sent.</li>
+<li><code>sent</code> - Show a list of invites sent.</li>
+<li><code>{town}</code> - Invites a town to a nation.</li>
+<li><code>ally</code></li>
+<li><code>add {国家名} .. {国家名}</code> - 把一个国家视为盟国.</li>
+<li><code>remove {国家名} .. {国家名}</code> - 不再把一个国家视为盟国.</li>
+<li><code>accept {nationname}</code> - Accepts an invitation to ally from another nation.</li>
+<li><code>deny {nationname}</code> - Denies an invitation to ally from another nation.</li>
+<li><code>sent</code> - Show a list of nation alliance invites sent.</li>
+<li><code>received</code> - Show a list of nation alliance invites received.</li>
+<li><code>enemy</code></li>
+<li><code>add {国家名} .. {国家名}</code> - 把一个国家视为敌国.</li>
+<li><code>remove {国家名} .. {国家名}</code> - 不再把一个国家视为敌国.</li>
+<li><code>rank {add|remove} {玩家名} {头衔名}</code> - 给予一个玩家国家头衔.</li>
+<li><code>say {msg}</code> - 广播信息给在线的国民.</li>
+<li><code>set</code></li>
+<li><code>king {居民}</code> - 把一个玩家加冕为王.</li>
+<li><code>captial {城镇名}</code> - 设置国都.</li>
+<li><code>board</code><ul>
+<li><code>{message}</code> - Sets message seen by residents upon logging in.</li>
+<li><code>none</code> - Sets an empty board which will not be seen on login or in the /nation status screen.</li>
+</ul>
+</li>
+<li><code>taxes {$}</code> - 设置国税.</li>
+<li><code>name {国名}</code> - 设置国家名.</li>
+<li><code>spawn</code> - Sets the nation spawn point.</li>
+<li><code>spawncost</code> - Sets the cost of public spawns to that nation's spawn point. No effect on members of the nation or nation-allies</li>
+<li><code>title {名称} {头衔内容}</code> - 给国家添加头衔(国王指令).</li>
+<li><code>surname {名称} {surnamegoeshere}</code> - 给国民冠以姓氏(国王指令).</li>
+<li><code>tag</code> {最多4个标签}``` - 设置国家标签.<ul>
+<li><code>clear</code> - 清除国家标签.</li>
+</ul>
+</li>
+<li><code>mapcolor {color}</code> - Sets the colour seen on the dynmap-towny webpage.</li>
+<li><code>toggle</code></li>
+<li><code>neutral</code> - 是否设置你的国家在战争期间每日付费来保持中立.</li>
+<li><code>open</code> - Sets the nation to be open, so that any town can join without an invite.</li>
+<li><code>join {nation}</code></li>
+<li>Used by a town mayor to join an open nation.</li>
+<li><code>merge {nationname}</code></li>
+<li>Requests the given nation to merge into your nation.</li>
+<li>Can only be used by the nation king, and requires the king of the other nation to be online to accept the merger.</li>
+<li>The soon-to-be-ex-king will receive a confirmation message asking if they will accept the dissolution of their nation.</li>
+<li>If accepted the towns of the nation transfer to the remaining nation. The nation's bank money is also transferred.</li>
+<li><code>ranklist {nationname}</code> - Displays residents and their ranks, optional nationname to view another nation's rank list.</li>
+<li><code>townlist (nation)</code></li>
+<li>(nation) is optional, to show townlist of a nation you aren't a part of.</li>
+<li>lists all towns in a nation.</li>
+<li><code>allylist (nation)</code></li>
+<li>(nation) is optional, to show allylist of a nation you aren't a part of.</li>
+<li>lists all allies of a nation.</li>
+<li><code>enemylist (nation)</code></li>
+<li>(nation) is optional, to show enemylist of a nation you aren't a part of.</li>
+<li>lists all enemies of a nation.</li>
+</ul>
+<h3 id="townyadmin"><code>/townyadmin</code> 管理员指令</h3>
+<p>缩写: <code>/ta</code></p>
+<ul>
+<li><code>（无子命令）</code> - 显示内存, 线程, 战争状态, 生命恢复设置, 时间, 税收状态.</li>
+<li><code>?</code> - 显示 /ta 指令.</li>
+<li><code>tpplot {world} {x} {z}</code> - Teleports an admin to the Towny chunk coordinates seen in the /towny map command. Be careful with large numbers, you could be teleported farther than you think and end up generating chunks.</li>
+<li><code>plot</code></li>
+<li><code>claim {playername}</code> - Admin command to claim a plot for another player. Area must be a part of a town.</li>
+<li><code>meta</code> - used to view a plot's metadata.</li>
+<li><code>set [key] [value]</code> - Sets a metadata.</li>
+<li><code>[add|remove] [key]</code> - Adds or removes a metadata.</li>
+<li><code>claimedat</code> - Shows when the plot was claimed.</li>
+<li><code>resident</code></li>
+<li><code>{residentname} delete</code> - Admin command to delete a resident.</li>
+<li><code>{oldname} rename {newname}</code> - Admin command to manually rename a resident to a new name. Not need if TownyNameUpdater.jar is present.</li>
+<li><code>{residentname} friend [add|remove|clear|list]</code> - Allows admins to manipulate a resident's friends list.</li>
+<li><code>{residentname} unjail</code> - Admin command to unjail any resident.</li>
+<li><code>town new {townname} {mayor}</code> - Admin command to create a town for the mayor where the command sender is standing, does not charge money.</li>
+<li><code>nation new {nationname} {capital}</code> - Admin command to create a nation for the capital town, does not charge money.</li>
+<li><strong>Dep</strong> <code>resident {玩家名}</code></li>
+<li><strong>Dep</strong> <code>{oldname} rename {newname}</code> - 手动给一个玩家改名. 这不需要TownyNameUpdater.jar.</li>
+<li><code>town {城镇名}</code></li>
+<li><code>add {居民} .. {居民}</code> - 邀请一个玩家到一个城镇内.</li>
+<li><code>invite {resident}</code> - Admin command to send a town invite to a player.</li>
+<li><code>remove {居民} .. {居民}</code> - 把一个玩家从城镇内移除.</li>
+<li><code>kick {居民}</code> - 把一个玩家踢出城镇.</li>
+<li><code>rename {新城镇名}</code> - 重命名一个城镇.</li>
+<li><code>spawn</code> - 设置一个城镇的传送点.</li>
+<li><code>outpost #</code> - 传送到任何城镇的前哨.</li>
+<li><code>delete</code> - 删除一个城镇.</li>
+<li><code>rank {add/remove} {名称} {头衔}</code> - 给予一个居民头衔.</li>
+<li><code>toggle [any /t toggle command]...</code> - Use a town's toggles for them.</li>
+<li><code>forcepvp</code> - Set the town's AdminEnabledPVP setting to true or false.</li>
+<li><code>set [any /t set command]...</code> - Use a town's set command for them.</li>
+<li><code>meta</code> - used to view a town's metadata.</li>
+<li><code>set [key] [value]</code> - Sets a metadata.</li>
+<li><code>[add|remove] [key]</code> - Adds or removes a metadata.</li>
+<li><code>outlaw [add|remove] [name]</code> - Admin command to add/remove outlaws from a town.</li>
+<li><code>leavenation</code> - Admin command to make a town leave their nation.</li>
+<li><code>deposit [amount]</code> - Deposit money into a town's bank.</li>
+<li><code>withdraw [amount]</code> - Withdraw money from a town's bank.</li>
+<li><code>bankhistory {#}</code> - Opens a book GUI with # number of transactions listed, showing the town bank history.</li>
+<li><code>unruin</code> - Un-ruins a ruined town.</li>
+<li><code>nation {国家名}</code></li>
+<li><code>add {城镇名}</code> - 添加一个城镇到一个国家内.</li>
+<li><code>rename {newname}</code> - 重命名国家.</li>
+<li><code>reset</code> - 重置城镇 config.yml到默认状态.</li>
+<li><code>toggle</code></li>
+<li><code>neutral</code> - 打开/关闭一个国家是否能宣布中立.</li>
+<li><code>npc {居民名}</code> - 把一个玩家视为NPC,开启一个玩家的文件内的 isNPC=true, 这个玩家可以免税并且这个城镇可以免除维护费用.</li>
+<li><code>debug</code> - 调试模式.</li>
+<li><code>devmode</code> - 开启dev开发模式来让插件开发人员找出bug.</li>
+<li><code>withdraw</code> - 从一个国家/城镇的银行内取钱.</li>
+<li><code>wildernessuse (on|off)</code> - Turns on/off the build/destroy/switch/itemuse properties of all worlds.</li>
+<li><code>regenerations (on|off)</code> - Toggles explosion regen and unclaimed revert in the wilderness of each world off or on.</li>
+<li><code>set</code></li>
+<li><code>plot {town}</code> - Sets a plot to a town.<ul>
+<li>When in a town only a single plot can be transfered at one time. Does not require a town to have available townblocks to claim.</li>
+<li>When in the wilderness two types of sub commands can be used to do area claims:</li>
+<li>Does require a town to have available townblocks to claim.</li>
+<li>Does obey proximity rules for claims between towns/homeblocks.</li>
+<li>/ta set plot {town} {rect|circle} {radius}</li>
+<li>/ta set plot {town} {rect|circle} auto</li>
+</ul>
+</li>
+<li><code>title {name} {title}</code> - 设置一个玩家的头衔.</li>
+<li><code>surname {玩家名} {surname}</code> - 设置一个玩家的姓氏.</li>
+<li><code>capital {城镇名}</code> - 改变一个国家的国都. 这个城镇必须已加入该国家.</li>
+<li><code>mayor</code><ul>
+<li><code>{城镇名} {居民}</code> - 设置一个居民为某城镇的城主.</li>
+<li><code>{城镇名} npc</code> - 设置一个城镇的城主为NPC.</li>
+</ul>
+</li>
+<li><code>nationzoneoverride [town] [size]</code> - Sets a town's NationZone size.</li>
+<li><code>givebonus {城镇名} {#}</code> - 给予城镇可声明的城镇区块上限.</li>
+<li><code>depositall {amount}</code> - Deposits given amount to all town and nation banks.</li>
+<li><code>reload</code> - 重载城镇的config.yml.</li>
+<li><code>all</code> - Reloads everything.</li>
+<li><code>database</code> - Reloads the database.</li>
+<li><code>perms</code> - Reload the townyperms.yml.</li>
+<li><code>config</code> - Reloads the config.yml.</li>
+<li><code>lang</code> - Reloads the language file.</li>
+<li><code>backup</code> - 备份.</li>
+<li><code>checkperm {player} {node}</code> - Quick test of whether a player has a permission node.</li>
+<li><code>newday</code> - 把城镇时间跳到明天, 这并不能阻止新的一天发生.</li>
+<li><code>unclaim</code></li>
+<li><code>rect {范围}</code> - 取消一块土地的声明状态.</li>
+<li><code>purge {#以天数为单位}</code> - 删除旧的居民信息.</li>
+<li>Optional townless flag will limit purge to only residents who are not part of a town.</li>
+<li><code>purge {# as in days} {townname}</code> - Deletes old residents.</li>
+<li>Optional townname flag will limit purge to only residents who are a part of that town.</li>
+<li><code>mysqldump</code></li>
+<li>When your config has save &amp; load set to mysql you can use this command to dump the mysql database to flatfile.</li>
+<li><code>database</code></li>
+<li><code>[save|load]</code> - Saves or loads the database.</li>
+<li><code>remove titles</code> - Removes all titles and surnames from all residents.</li>
+<li><code>townyperms</code></li>
+<li><code>grouplist</code> - Lists all the groups in the townyperms.yml</li>
+<li><code>group [groupname]</code> : lists the nodes held by a group.</li>
+<li><code>group [groupname] addperm|removeperm [node]</code> : adds or removes a node to/from a group.</li>
+<li><code>townrank addrank|removerank [rank]</code> : adds or removes a town rank.</li>
+<li><code>nationrank addrank|removerank [rank]</code> : adds or removes a nation rank.</li>
+</ul>
+<h3 id="townyworld"><code>/townyworld</code> 管理员指令</h3>
+<p>缩写: <code>/tw</code></p>
+<ul>
+<li><code>（无子命令）</code> - 显示你所在世界是否启用了城镇.</li>
+<li><code>?</code> - 显示 /tw 指令.</li>
+<li><code>list</code> - 列出启用城镇插件的世界.</li>
+<li><code>{world}</code> - 显示世界设置.</li>
+<li><code>toggle</code></li>
+<li><code>claimable</code> - 开关这个世界城镇是否可以声明区块.</li>
+<li><code>usingtowny</code> - 开关这个世界是否启用城镇.</li>
+<li><code>pvp</code> - 开关这个世界的PVP.</li>
+<li><code>forcepvp</code> - 开关这个世界全部城镇强制开启PVP.</li>
+<li><code>friendlyfire</code> - Turn on/off whether town/nation/allied members can hurt each other.</li>
+<li><code>explosion</code> - 开关这个世界的爆炸.</li>
+<li><code>forceexplosion</code> - 强制开启这个世界的爆炸.</li>
+<li><code>fire</code> - 开关这个世界的火势蔓延.</li>
+<li><code>townmobs</code> - 开关这个世界城镇内怪物的生成.</li>
+<li><code>worldmobs</code> - 强制开关世界内的怪物生成.</li>
+<li><code>wildernessmobs</code> - Turn on/off the mobs listed in the wilderness mobs in the wilderness.</li>
+<li><code>revertunclaim</code> - 开关这个世界的回溯特性.</li>
+<li><code>revertentityexpl</code> - Turn on/off the reverting of explosions by entities in the wilderness feature for that world.</li>
+<li><code>revertblockexpl</code> - Turn on/off the reverting of explosions by blocks in the wilderness feature for that world.</li>
+<li><code>warallowed</code> - Turn on/off whether war plugins should operate in this world.</li>
+<li><code>plotcleardelete</code> - Turn on/off whether the /plot clear command can be used.</li>
+<li><code>unclaimblockdelete {on|off}</code> - Turns on/off the delete-blocks-on-unclaim feature in the world.</li>
+<li><code>set</code></li>
+<li><code>wildname {名称}</code> - 设置荒野名.</li>
+<li><code>wildperm {perm} .. {perm}</code> - 不支持.</li>
+<li><code>wildignore {id} .. {id}</code> - 不支持.</li>
+<li><code>wildregen {Creeper,EnderCrystal,EnderDragon,Fireball,SmallFireball,LargeFireball,TNTPrimed,ExplosiveMinecart}</code> - 设置在荒野内的哪种爆炸破坏会回溯.</li>
+<li><code>usedefault</code> - 不支持.</li>
+<li><code>regen</code> - 重置区块.</li>
+<li><code>undo</code> - 撤销 /tw 重置区块.</li>
+</ul>
+<h3 id="invite"><code>/invite</code></h3>
+<ul>
+<li><code>（无子命令）</code> - 显示子命令.</li>
+<li><code>?|help</code> - 显示子命令.</li>
+<li><code>list</code> - 显示你收到的邀请列表</li>
+<li><code>accept {town}</code> - 接受加入一个城镇的邀请.</li>
+<li><code>deny {town}</code> - 拒绝加入一个城镇的邀请.</li>
+</ul>
+<h3 id="_2">城镇聊天指令</h3>
+<ul>
+<li><code>/townychat reload</code> - 重载 chatconfig.yml 和 channels.yml</li>
+<li><code>/townchat</code>, <code>/tc</code> - 城镇聊天频道, 之后不需要再次输入来进入频道.</li>
+<li><code>/nationchat</code>, <code>/nc</code> - 国家聊天频道, 之后不需要再次输入来进入频道.</li>
+<li><code>/global</code>, <code>/g</code> - 全局聊天频道,之后不需要再次输入来进入频道.</li>
+<li><code>/res set mode reset</code> - 重置聊天模式为默认.</li>
+<li><code>/a</code> - 管理员频道.</li>
+<li><code>/m</code> - 助理者频道.</li>
+<li><code>/channel leave|join {频道}</code> - 离开或加入一个聊天频道.</li>
+<li><code>/ch list</code> –列出多少玩家在你所在频道有.</li>
+<li><code>/leave {频道}</code> - 离开一个聊天频道.</li>
+<li><code>/join {频道}</code> - 加入一个聊天频道.</li>
+<li><code>/chmute {频道} {玩家}</code> - 在一个频道内禁言某玩家.</li>
+<li><code>/mutelist {频道}</code> - 显示被禁言的玩家.</li>
+<li><code>/chunmute {频道} {玩家}</code> - 取消禁言.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>
