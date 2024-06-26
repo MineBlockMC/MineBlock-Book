@@ -18,3 +18,5 @@ MineBlock 是充满欢乐和友爱的地方，我们希望所有玩家都能在 
 * 在线商店：[https://store.mineblock.cc](https://store.mineblock.cc)
 * 卫星地图：[https://map.mineblock.cc](https://map.mineblock.cc)
 * QQ 交流群：1062462092
+* Discord：https://discord.gg/362hJbfN
+* 电子邮件：service@mineblock.cc
