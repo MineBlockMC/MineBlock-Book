@@ -14,7 +14,7 @@ nav:
       - mechanism/Towny/index.md
       - 命令: mechanism/Towny/command.md
   - 服务器内容:
-    - 特权表: server/rank.md
+    - 会员等级: server/rank.md
     - 已知 Bug: server/bugs.md
     - 隐私政策: server/privacy.md
 theme:
