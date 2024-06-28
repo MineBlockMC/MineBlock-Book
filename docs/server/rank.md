@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # 会员等级
 
 会员等级是 MineBlock 的重要组成部分，会员等级能够体现一名玩家为 MineBlock 提供的支持或是其在 MineBlock 的地位。
