@@ -54,7 +54,7 @@
 
 * Tweakeroo
 * AutoFish
-* Wurst 等作弊客户端
+* Wurst Client 等作弊客户端
 
 
 !!! note "提示"

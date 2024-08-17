@@ -16,6 +16,7 @@ nav:
   - 服务器内容:
     - 会员等级: server/rank.md
     - 已知 Bug: server/bugs.md
+    - 地区封禁: server/geoban.md
     - 隐私政策: server/privacy.md
 theme:
   name: material
