@@ -16,9 +16,12 @@ MineBlock 致力于让来自于世界上任何地方的玩家都能尽情享受�
 以下是我们已施加地区封禁的名单，如果您所在的位置被列入名单，请查看“如何豁免地区封禁”部分了解如何联系我们为您单独解除封禁。
 
 - 澳大利亚（Australia）
+- 英国（United Kingdom）
+- 荷兰（The Netherlands）
+- 立陶宛（Lithuania）
 
 ## 如何豁免地区封禁
 如果您所在的位置被列入地区封禁名单，请将以下信息发送至我们的邮箱 [service@mineblock.cc](mailto:service@mineblock.cc) 或加入我们的 [Discord 服务器](https://discord.gg/BfYVpqVmts)寻求管理员的帮助：
 
-- Minecraft 账户 UUID（**不是玩家名**，可以在 namemc.com 找到您的 UUID）
-- IP 地址（可以在 ifconfig.me 找到您的 IP 地址）
+- Minecraft 账户 UUID（**不是玩家名**，可以在 [namemc.com](https://namemc.com) 找到您的 UUID）
+- IP 地址（可以在 [ifconfig.me](https://ifconfig.me) 找到您的 IP 地址）
