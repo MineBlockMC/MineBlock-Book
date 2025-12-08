@@ -46,11 +46,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
-extra:
-  alternate:
-    - name: 简体中文
-      link: /
-      lang: zh-Hans
 repo_url: https://github.com/MineBlockMC/MineBlock-Book
 repo_name: MineBlock-Book
 edit_uri: edit/mkdocs/docs/
