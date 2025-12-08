@@ -35,7 +35,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: /favicon.ico
+  favicon: /assets/favicon.ico
   icon:
     logo: material/library
     repo: fontawesome/brands/github
